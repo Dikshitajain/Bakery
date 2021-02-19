@@ -7,6 +7,10 @@
 
     <title>Outlet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -14,22 +18,59 @@
 
 
 <body>
-    <ul class="navbar">
-
-        <li class="dropdown-menu"><a href="about.html">About</a>
-            <ul class="dropdown-items">
-                <li><a href="our-story.html">Our Story</a></li>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 1</a></li>
+    <div class="container-fluid navbar1">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">MOTHER BAKERY</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav main_navbar">
+                <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="holiday-special.html">Holidays Special</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="outlet.html">Outlets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
             </ul>
-        </li>
-
-        <li><a href="holiday-special.html">Holidays Special</a></li>
-        <li><a href="outlet.html">Outlets</a></li>
-
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
+            </div>
+        </nav>
+                </div>
+            </div>
+        
+        </div>
+    </div>
     <section class="outlet-banner">
 
         <div class="banner-header">
@@ -45,66 +86,97 @@
     </div>
 
     <section class="outlet-header">
-        <div class="sidebar">
-            <div id="example1">
-                <h3>VIEW STORE INFO</h3>
-            </div>
-            <div id="example2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="sidebar">
+                                <div id="example1">
+                                    <h3>VIEW STORE INFO</h3>
+                                </div>
+                                <div id="example2">
 
-                <p><br><b>JHILMIL,DELHI</b></p>
-                <p>D1/1, near Bikaner Sweet, Jhilmil Colony, <br>Delhi 110095</p>
-                <a href="https://www.google.com/maps/@28.6695534,77.3059225,17z "><br>VIEW STORE INFO</a>
-            </div>
-            <div id="example2">
-                <p><br><b>DILSHAD GARDEN,DELHI</b></p>
-                <p>Pocket D-674, Dilshad Garden, Dilshad Garden, <br>Delhi 110095</p>
-                <a href="https://www.google.com/search?sxsrf=ALeKk0195NqBsDm_W-O1BfNoD7CuyJffwQ:1589469852432&q=mother+bakery&npsic=0&rflfq=1&rlha=0&rllag=28666881,77326887,3055&tbm=lcl&ved=2ahUKEwi_xb3P1LPpAhXjwjgGHYwpAwAQjGp6BAgMEDw&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!1m4!1u16!2m2!16m1!1e1!1m4!1u16!2m2!16m1!1e2!2m1!1e2!2m1!1e16!2m1!1e3!3sIAE,lf:1,lf_ui:9&rldoc=1#rlfi=hd:;si:15457847624254021840;mv:[[28.697144500000004,77.4245406],[28.640317699999997,77.2913149]] "><br>VIEW STORE INFO</a>
-            </div>
-            <div id="example2">
-                <p><br><b>VAISHALI, GHAZIABAD </b></p>
-                <p>717-C, GDA Market, Sector 5, Vaishali, Ghaziabad, <br>Uttar Pradesh 201010</p>
-                <a href="google.com/maps/dir/28.6694797,77.3080678/mother+bakery/@28.6495503,77.3116941,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390cfacfb7653c31:0x5966e1671d2d7de8!2m2!1d77.345593!2d28.644819 "><br>VIEW STORE INFO</a>
-            </div>
-            <div id="example2">
-                <p><br><b>SHALIMAR GARDEN, GHAZIABAD </b></p>
-                <p>Plot No. 337, Shop No. 1, Opp. Darshan Public School,<br> Shalimar Garden Extension-I, Sahibabad, Ghaziabad, <br> Uttar Pradesh 201005</p>
-                <a href="https://www.google.com/maps/dir/28.6694797,77.3080678/mother+bakery/@28.6795296,77.3071737,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390cfa5171640cf7:0xd281a38fac844abe!2m2!1d77.339238!2d28.688943 "><br>VIEW STORE INFO</a>
-            </div>
-            <div id="example2">
-                <p><br><b> GHAZIABAD,UTTAR PRADESH </b></p>
-                <p>B-1, DLF Dilshad, Shalimar Garden Extension II, <br>Bhopura, Ghaziabad, <br> Uttar Pradesh 201005</p>
-                <a href="https://www.google.com/maps/dir/28.6694797,77.3080678/mother+bakery/@28.6819459,77.2999712,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390cfbb252d5894d:0xd8c327fdcda34b3d!2m2!1d77.3290307!2d28.6941002 "> VIEW ATORE INFO</a>
+                                    <p><br><b>JHILMIL,DELHI</b></p>
+                                    <p>D1/1, near Bikaner Sweet, Jhilmil Colony, <br>Delhi 110095</p>
+                                    <a href="https://www.google.com/maps/@28.6695534,77.3059225,17z "><br>VIEW STORE INFO</a>
+                                </div>
+                                <div id="example2">
+                                    <p><br><b>DILSHAD GARDEN,DELHI</b></p>
+                                    <p>Pocket D-674, Dilshad Garden, Dilshad Garden, <br>Delhi 110095</p>
+                                    <a href="https://www.google.com/search?sxsrf=ALeKk0195NqBsDm_W-O1BfNoD7CuyJffwQ:1589469852432&q=mother+bakery&npsic=0&rflfq=1&rlha=0&rllag=28666881,77326887,3055&tbm=lcl&ved=2ahUKEwi_xb3P1LPpAhXjwjgGHYwpAwAQjGp6BAgMEDw&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!1m4!1u16!2m2!16m1!1e1!1m4!1u16!2m2!16m1!1e2!2m1!1e2!2m1!1e16!2m1!1e3!3sIAE,lf:1,lf_ui:9&rldoc=1#rlfi=hd:;si:15457847624254021840;mv:[[28.697144500000004,77.4245406],[28.640317699999997,77.2913149]] "><br>VIEW STORE INFO</a>
+                                </div>
+                                <div id="example2">
+                                    <p><br><b>VAISHALI, GHAZIABAD </b></p>
+                                    <p>717-C, GDA Market, Sector 5, Vaishali, Ghaziabad, <br>Uttar Pradesh 201010</p>
+                                    <a href="google.com/maps/dir/28.6694797,77.3080678/mother+bakery/@28.6495503,77.3116941,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390cfacfb7653c31:0x5966e1671d2d7de8!2m2!1d77.345593!2d28.644819 "><br>VIEW STORE INFO</a>
+                                </div>
+                                <div id="example2">
+                                    <p><br><b>SHALIMAR GARDEN, GHAZIABAD </b></p>
+                                    <p>Plot No. 337, Shop No. 1, Opp. Darshan Public School,<br> Shalimar Garden Extension-I, Sahibabad, Ghaziabad, <br> Uttar Pradesh 201005</p>
+                                    <a href="https://www.google.com/maps/dir/28.6694797,77.3080678/mother+bakery/@28.6795296,77.3071737,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390cfa5171640cf7:0xd281a38fac844abe!2m2!1d77.339238!2d28.688943 "><br>VIEW STORE INFO</a>
+                                </div>
+                                <div id="example2">
+                                    <p><br><b> GHAZIABAD,UTTAR PRADESH </b></p>
+                                    <p>B-1, DLF Dilshad, Shalimar Garden Extension II, <br>Bhopura, Ghaziabad, <br> Uttar Pradesh 201005</p>
+                                    <a href="https://www.google.com/maps/dir/28.6694797,77.3080678/mother+bakery/@28.6819459,77.2999712,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390cfbb252d5894d:0xd8c327fdcda34b3d!2m2!1d77.3290307!2d28.6941002 "> VIEW ATORE INFO</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="map">
+                                <div id="example3">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.672501102437!2d77.30599341508344!3d28.66952318240315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfbac8632d8e1%3A0x468feda790115b78!2sDarpan%20(Mother%20Bakery)!5e0!3m2!1sen!2sin!4v1613751968712!5m2!1sen!2sin" width="800" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="map">
-            <div id="example3">
-                <img src="images/map.PNG">
-            </div>
-        </div>
+        
+        
     </section>
 
 
     <footer>
-        <div class="footer-items ">
-            <h2>Quicklinks</h2>
-            <a href="about.html">About</a>
-            <a href="holiday-special.html">Holiday Special</a>
-            <a href="outlet.html">Outlet</a>
-            <a href="contact.html">Contact</a>
-        </div>
-
-        <div class="footer-items ">
-            <h2>Suscribe</h2>
-            <form>
-                <input type="email " placeholder="Email Address ">
-                <input type="submit " value="Subscribe ">
-            </form>
-        </div>
-        <div class="footer-items ">
-            <span class="fa fa-facebook-f "></span>
-            <span class="fa fa-instagram "></span>
-            <span class="fa fa-twitter "></span>
-            <span class="fa fa-linkedin "></span>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-3">
+                                   <div class="footer-items ">
+                                        <h2>Quicklinks</h2>
+                                        <a href="about.html">About</a>
+                                        <a href="holiday-special.html">Holiday Special</a>
+                                        <a href="outlet.html">Outlet</a>
+                                        <a href="contact.html">Contact</a>
+                                    </div> 
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="footer-items ">
+                                        <h2>Subscribe</h2>
+                                        <form>
+                                            <input type="email" placeholder="Email Address ">
+                                            <input type="submit" class="footer-form">
+                                        </form>
+                                    </div>
+                                 </div>
+                                 <div class="col-md-3">
+                                    <div class="footer-items ">
+                                        <span class="fa fa-facebook-f "></span>
+                                        <span class="fa fa-instagram "></span>
+                                        <span class="fa fa-twitter "></span>
+                                        <span class="fa fa-linkedin "></span>
+                                    </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
